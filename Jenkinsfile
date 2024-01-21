@@ -17,8 +17,7 @@ pipeline {
                 sh 'mvn clean package'
             }
         }
-    }
-    
+    } 
     post {
         always {
             // Actions to perform after the pipeline execution
