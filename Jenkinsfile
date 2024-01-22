@@ -10,7 +10,6 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/esundeep1/spring-petclinic.git'
             }
         }
-        
         stage('Build and Test') {
             steps {
                 // Building the project and running unit tests with Maven
